@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?whxp3a');
-  src:  url('../fonts/icomoon.eot?whxp3a#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?whxp3a') format('truetype'),
-    url('../fonts/icomoon.woff?whxp3a') format('woff'),
-    url('../fonts/icomoon.svg?whxp3a#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?ntjgy7');
+  src:  url('../fonts/icomoon.eot?ntjgy7#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ntjgy7') format('truetype'),
+    url('../fonts/icomoon.woff?ntjgy7') format('woff'),
+    url('../fonts/icomoon.svg?ntjgy7#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,15 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-Facebook:before {
-  content: "\e900";
+.icon-facebook2:before {
+  content: "\ea91";
 }
-.icon-Twitter:before {
-  content: "\e902";
+.icon-instagram:before {
+  content: "\ea92";
 }
-.icon-google-plus:before {
-  content: "\ea8b";
+.icon-twitter:before {
+  content: "\ea96";
 }
-.icon-linkedin2:before {
-  content: "\eaca";
+.icon-github:before {
+  content: "\eab0";
 }
