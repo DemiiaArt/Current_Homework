@@ -23,7 +23,7 @@
 }
 
 .container {
-    width: 1330px;
+    max-width: 1330px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -145,6 +145,11 @@ img {
 .btn--bgdarck {
     background: #000;
     color: #fff;
+}
+
+.buttons {
+    display: inline-flex;
+    justify-content: flex-end;
 }
 
 header {
