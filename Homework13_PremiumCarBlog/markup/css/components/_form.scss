@@ -1,0 +1,35 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 27px;
+
+    button {
+        border: none;
+    }
+
+    input {
+        border: 1px solid $input;
+        padding: 17px 15px 15px;
+        border-radius: 3px;
+
+        &:hover {
+            border: 1px solid $accent;
+        }
+
+        &:invalid {
+            border: 1px solid red;
+        }
+    }
+
+    .foot_col & {
+        margin-top: 38px;
+
+        input {
+            border: none;
+            border-radius: 3px;
+            background: #373737;
+            color: $white;
+        }
+    }
+}
