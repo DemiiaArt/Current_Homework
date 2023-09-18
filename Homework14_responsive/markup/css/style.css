@@ -624,6 +624,7 @@ header {
 
     .row-text {
         width: 70%;
+        padding: 0 20px;
     }
 }
 
@@ -694,7 +695,7 @@ header {
 }
 
 .list-cards li {
-    padding: 12px 24px;
+    padding: 12px;
     width: calc(100% / 2);
 }
 
@@ -719,6 +720,7 @@ header {
 @media (min-width: 768px) {
     .list-cards li {
         width: calc(100% / 3);
+        padding: 20px;
     }
 }
 
@@ -835,7 +837,7 @@ q {
 .quote-text img {
     width: 66px;
     height: 16px;
-    margin-top: 5px;
+    margin: 5px 0 10px;
 }
 
 @media (min-width: 480px) {
@@ -1095,8 +1097,8 @@ footer {
 .footer-nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    font-size: 8px;
+    justify-content: space-around;
+    font-size: 9px;
     line-height: 100%;
     width: 100%;
     padding: 20px 0 0;
@@ -1125,12 +1127,12 @@ footer {
 
 @media (min-width: 480px) {
     .footer-nav {
-        padding: 0 0 0 50px;
+        padding: 0 0 0 40px;
         font-size: 12px;
     }
 
     .column {
-        width: calc(100% / 2);
+        width: 40%;
     }
 
     .footer-list {
@@ -1150,6 +1152,7 @@ footer {
 
     .column {
         width: calc(100% / 4);
+        padding-left: 20px;
     }
 }
 
@@ -1166,7 +1169,7 @@ footer {
     align-items: center;
     padding: 20px 0;
     border-top: 1px solid #000;
-    font-size: 8px;
+    font-size: 9px;
     line-height: 125%;
 }
 
