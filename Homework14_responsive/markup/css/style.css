@@ -59,6 +59,11 @@ a {
     text-decoration: underline;
 }
 
+a:active {
+    background: rgba(156, 171, 255, 0.1);
+    border-radius: 5px;
+}
+
 @media (min-width: 992px) {
     a:hover {
         color: #FF6336;
@@ -181,6 +186,10 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.50);
 }
 
+.btn:active {
+    background: rgba(156, 171, 255, 0.1);
+}
+
 @media (min-width: 992px) {
     .btn {
         padding: 11px 36px;
@@ -204,6 +213,10 @@ img {
     color: #fff;
     background: #FF6336;
     border: 1px solid #FF6336;
+}
+
+.btn--bg:active {
+    background: rgba(76, 103, 255, 0.1)
 }
 
 .btn--lg {
@@ -954,7 +967,7 @@ q {
     }
 
     .rating-text {
-        font-size: 35px;
+        font-size: 28px;
     }
 
     .rating-img {
@@ -962,20 +975,20 @@ q {
     }
 
     .rating-img img {
-        width: 176px;
-        height: 154px;
+        width: 150px;
+        height: 136px;
     }
 
     .rating-cards {
-        justify-content: flex-start;
+        justify-content: space-around;
+        align-items: center;
         padding: 41px 0;
-        width: 50%;
+        width: 60%;
     }
 
     .rating-cards img {
         height: 116px;
         width: auto;
-        padding-left: 71px;
     }
 }
 
